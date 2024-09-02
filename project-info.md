@@ -1,6 +1,7 @@
 ```
 I have created this project using only TailwindCSS and 
-I preferred integrating tailwind files using PostCss rather than TailwindCLI
+I preferred to do it with Tailwind rather than DaisyUi. 
+Hope you like it. Thanks!
 
-Hope you guys don't mind. Thanks
+
 ````
