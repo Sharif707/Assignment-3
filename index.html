@@ -238,8 +238,8 @@
     </main>
 
     <main>
-        <section
-            class="bg-[url('/assets/bg.jpg')] min-h-screen bg-cover bg-center bg-no-repeat lg:pt-24 lg:pb-24 text-center py-10">
+        <section class="min-h-screen lg:pt-24 lg:pb-24 text-center py-10"
+            style="background: url('assets/bg.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center;">
             <div class="inline rounded-3xl px-3 py-2 bg-[#abef5f] bg-opacity-20 shadow-sm">
                 <i class="fa-solid fa-arrow-right"></i>
                 <span class="text-[#494949] ml-2 font-extrabold ">Let's Connect</span>
@@ -255,19 +255,20 @@
 
 
             <form class="max-w-[920px] p-5 mx-auto">
-                <div class="flex flex-col gap-5 lg:flex-row lg:gap-6 mb-6">
+                <div class="flex flex-col gap-5 md:flex-row md:gap-6 mb-6">
                     <input type="text" placeholder="Enter First Name"
                         class="rounded-full p-5 bg-white text-[#a0a0a0] font-medium md:w-1/2 w-full" required>
                     <input type="text" placeholder="Enter Last Name"
                         class="rounded-full p-5 bg-white text-[#a0a0a0] font-medium md:w-1/2 w-full" required>
                 </div>
-                <div class="flex flex-col gap-5 lg:flex-row lg:gap-6 mb-6">
+                <div class="flex flex-col gap-5 md:flex-row md:gap-6 mb-6">
                     <input type="number" placeholder="Phone Number"
                         class="rounded-full p-5 bg-white text-[#a0a0a0] font-medium md:w-1/2 w-full" required>
                     <input type="email" placeholder="Email Number"
                         class="rounded-full p-5 bg-white text-[#a0a0a0] font-medium md:w-1/2 w-full" required>
                 </div>
-                <textarea class="border border-black rounded-3xl p-5 bg-white text-[#a0a0a0] font-medium block w-full lg:h-48 resize-none lg:mb-8 mb-6">Write Your Message Here</textarea>
+                <textarea
+                    class=" rounded-3xl p-5 bg-white text-[#a0a0a0] font-medium block w-full lg:h-48 resize-none lg:mb-8 mb-6">Write Your Message Here</textarea>
                 <button class="py-3 px-5 rounded-3xl bg-[#abef5f] w-full flex items-center justify-center gap-2">
                     <span class="font-bold text-[20px]">Send Mail</span>
                     <img src="assets/icons8-arrow-up-right-32.png" alt=""
